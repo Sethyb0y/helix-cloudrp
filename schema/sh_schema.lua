@@ -1,6 +1,6 @@
 
-Schema.name = "HL2 RP"
-Schema.author = "nebulous.cloud"
+Schema.name = "Cloud RP"
+Schema.author = "Cloudbucket"
 Schema.description = "A schema based on Half-Life 2."
 
 -- Include netstream
