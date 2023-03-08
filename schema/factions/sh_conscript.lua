@@ -18,8 +18,8 @@ FACTION.models = {
 	"models/models/army/female_02.mdl",
 	"models/models/army/female_03.mdl",
 	"models/models/army/female_04.mdl",
-	"models/models/army/female_05.mdl",
 	"models/models/army/female_06.mdl",
+	"models/models/army/female_07.mdl",
 }
 
 FACTION_CONSCRIPT = FACTION.index
