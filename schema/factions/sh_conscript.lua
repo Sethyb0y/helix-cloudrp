@@ -4,7 +4,6 @@ FACTION.description = "An unlucky soldier enslaved by the Universal Union."
 FACTION.color = Color(0, 210, 50, 255)
 FACTION.isDefault = true
 FACTION.isGloballyRecognized = true
-
 FACTION.models = {
 	"models/wichacks/art.mdl",
 	"models/wichacks/erdim.mdl",
