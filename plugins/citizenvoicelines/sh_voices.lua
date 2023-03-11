@@ -961,8 +961,7 @@ Schema.voices.Add("CitizenFemale", "THISWAY2", "This way.", "vo/episode_1/npc/fe
 Schema.voices.Add("CitizenFemale", "YOUBETLETSGO", "You bet, let's go.", "vo/episode_1/npc/female01/cit_youbet.wav")
 
 Schema.voices.AddClass("CitizenMale", function(client)
-	return string.find(client:GetModel(), "male")
-  and not string.find(client:GetModel(), "female")
+	return client:IsMale()
 end)
 
 Schema.voices.AddClass("CitizenFemale", function(client) -- should of used IsFemale() but oh well
