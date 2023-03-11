@@ -966,5 +966,5 @@ Schema.voices.AddClass("CitizenMale", function(client)
 end)
 
 Schema.voices.AddClass("CitizenFemale", function(client) -- should of used IsFemale() but oh well
-  return string.find(client:GetModel(), "female")
+  return client:IsFemale()
 end)
